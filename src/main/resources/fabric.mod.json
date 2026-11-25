@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "rigmod",
+  "version": "${version}",
+  "name": "Rig Mod",
+  "description": "Client-side visual item swap for the dropper paper game.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.rigmod.RigMod"]
+  },
+  "mixins": ["rigmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
