@@ -2,8 +2,9 @@
   "schemaVersion": 1,
   "id": "rigmod",
   "version": "${version}",
-  "name": "Rig Mod",
-  "description": "Client-side visual item swap for the dropper paper game.",
+  "name": "entity mod",
+  "description": "Client-side entity performance mod!",
+  "icon": "icon.png",
   "authors": ["You"],
   "environment": "client",
   "entrypoints": {
